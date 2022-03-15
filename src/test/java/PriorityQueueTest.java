@@ -63,7 +63,7 @@ class PriorityQueueTest {
                 Arguments.of((Object) new int[]{60,0,-5,-100},(Object) new int[]{-100,-5,0,60}),
                 Arguments.of((Object) new int[]{6,4,1,3,2,5},(Object) new int[]{1,2,3,4,5,6}),
                 Arguments.of((Object) new int[]{-60,-70,-40,-50},(Object) new int[]{-70,-60,-50,-40}),
-                Arguments.of((Object) new int[]{1,-1,0},(Object) new int[]{-1,0,1})
+                Arguments.of((Object) new int[]{1,-1,0},(Object) new int[]{-1,0,2})
         );
     }
     @ParameterizedTest(name="#{index} - Test with Argument={0},{1}")
